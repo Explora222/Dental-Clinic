@@ -1,0 +1,37 @@
+{
+  "name": "Serene Dental",
+  "short_name": "Serene",
+  "description": "Premium dental clinic offering professional dental care services in Sandton, Johannesburg",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2c5f5d",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["healthcare", "medical"],
+  "screenshots": [
+    {
+      "src": "Home.jfif",
+      "sizes": "540x720",
+      "type": "image/jpeg"
+    }
+  ]
+}

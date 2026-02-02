@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium dental clinic offering professional dental care services in South Africa. Expert dental care with state-of-the-art technology in Sandton, Johannesburg.">
+    <meta name="keywords" content="dental clinic, dentistry, cosmetic dentistry, implants, orthodontics, emergency dental care, Sandton, Johannesburg">
+    <meta name="author" content="Serene Dental">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://serenedental.co.za/">
+    <meta property="og:title" content="Serene Dental - Premium Dental Care in Sandton">
+    <meta property="og:description" content="Experience premium dental care with expert dentists. Cosmetic, general, and emergency dental services in Johannesburg.">
+    <meta property="og:image" content="Home.jfif">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://serenedental.co.za/">
+    <meta property="twitter:title" content="Serene Dental - Premium Dental Care">
+    <meta property="twitter:description" content="Expert dental care in Sandton. Book your appointment today.">
+    <meta property="twitter:image" content="Home.jfif">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2c5f5d">
+    
+    <title>Serene Dental - Premium Dental Care in Sandton, Johannesburg</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Jost:wght@300;400;500;600&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Serene Dental",
+        "image": "Home.jfif",
+        "description": "Premium dental clinic offering professional dental care services",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Dental Avenue, Sandton",
+            "addressLocality": "Johannesburg",
+            "postalCode": "2196",
+            "addressCountry": "ZA"
+        },
+        "telephone": "+27111234567",
+        "email": "info@serenedental.co.za",
+        "url": "https://serenedental.co.za",
+        "priceRange": "R$$",
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "08:00",
+                "closes": "18:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "opens": "09:00",
+                "closes": "14:00"
+            }
+        ],
+        "sameAs": [
+            "https://www.facebook.com/serenedental",
+            "https://www.instagram.com/serenedental",
+            "https://www.linkedin.com/company/serenedental"
+        ],
+        "areaServed": "Johannesburg, Sandton",
+        "knowsAbout": ["General Dentistry", "Cosmetic Dentistry", "Dental Implants", "Orthodontics", "Root Canal Therapy", "Emergency Care"]
+    }
+    </script>
+</head>
+<body>
+    
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home" class="logo">
+                    <span class="logo-text">Serene Dental</span>
+                </a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#team" class="nav-link">Our Team</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="#appointment" class="btn-primary-nav">Book Appointment</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <img src="home.jpg" alt="Serene Dental - modern dental clinic in Sandton" class="hero-bg-image" width="1920" height="1080">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title animate-fade-in">
+                    Your Smile,<br>
+                    <span class="hero-title-accent">Our Passion</span>
+                </h1>
+                <p class="hero-subtitle animate-fade-in delay-1">
+                    Experience premium dental care that combines advanced technology with personalized attention in a serene, comfortable environment.
+                </p>
+                <div class="hero-cta animate-fade-in delay-2">
+                    <a href="#appointment" class="btn-primary btn-large">Book Your Visit</a>
+                    <a href="#services" class="btn-secondary btn-large">Our Services</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content fade-in-up">
+                    <span class="section-label">About Us</span>
+                    <h2 class="section-title">Excellence in<br>Dental Care</h2>
+                    <p class="about-text">
+                        At Serene Dental, we believe that exceptional dental care begins with understanding. Our practice combines state-of-the-art technology with a gentle, patient-centered approach to create an experience that's as comfortable as it is comprehensive.
+                    </p>
+                    <p class="about-text">
+                        With over 15 years of experience, our team of specialists is committed to helping you achieve optimal oral health through personalized treatment plans and the highest standards of care.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5,000+</span>
+                            <span class="stat-label">Happy Patients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Satisfaction Rate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image fade-in-up delay-1">
+                    
+                    <img src="interior.webp" alt="Modern dental clinic interior">
+                    <div class="about-image-accent"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Services</span>
+                <h2 class="section-title">Comprehensive Dental Solutions</h2>
+                <p class="section-description">From preventive care to cosmetic enhancements, we offer a full spectrum of dental services tailored to your unique needs.</p>
+            </div>
+            
+            
+            <div class="services-grid">
+                <div class="service-card fade-in-up">
+                    <div class="service-image">
+                        
+                        <img src="clean.jpg" alt="Dental cleaning">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">General Dentistry</h3>
+                        <p class="service-description">
+                            Comprehensive checkups, professional cleaning, and preventive care to maintain your oral health.
+                        </p>
+                        <ul class="service-features">
+                            <li>Routine Examinations</li>
+                            <li>Professional Cleaning</li>
+                            <li>Cavity Treatment</li>
+                            <li>Dental X-Rays</li>
+                        </ul>
+                        <div class="service-price">
+                            <span class="price-label">Starting from</span>
+                            <span class="price-amount">R 850</span>
+                        </div>
+                        <a href="#appointment" class="btn-service">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="service-card fade-in-up delay-1">
+                    <div class="service-image">
+                        
+                        <img src="Cosmetic Dentistry.jpg" alt="Cosmetic dentistry">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Cosmetic Dentistry</h3>
+                        <p class="service-description">
+                            Transform your smile with our advanced cosmetic procedures designed for natural-looking results.
+                        </p>
+                        <ul class="service-features">
+                            <li>Teeth Whitening</li>
+                            <li>Porcelain Veneers</li>
+                            <li>Smile Makeover</li>
+                            <li>Composite Bonding</li>
+                        </ul>
+                        <div class="service-price">
+                            <span class="price-label">Starting from</span>
+                            <span class="price-amount">R 2,500</span>
+                        </div>
+                        <a href="#appointment" class="btn-service">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="service-card fade-in-up delay-2">
+                    <div class="service-image">
+                        
+                        <img src="Dental Implants.webp" alt="Dental implants">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Dental Implants</h3>
+                        <p class="service-description">
+                            Permanent tooth replacement solutions that look, feel, and function like natural teeth.
+                        </p>
+                        <ul class="service-features">
+                            <li>Single Tooth Implants</li>
+                            <li>Multiple Implants</li>
+                            <li>Full Arch Restoration</li>
+                            <li>Bone Grafting</li>
+                        </ul>
+                        <div class="service-price">
+                            <span class="price-label">Starting from</span>
+                            <span class="price-amount">R 18,500</span>
+                        </div>
+                        <a href="#appointment" class="btn-service">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="service-card fade-in-up">
+                    <div class="service-image">
+                       
+                        <img src="Orthodontics.jpg" alt="Orthodontics">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Orthodontics</h3>
+                        <p class="service-description">
+                            Achieve a perfectly aligned smile with modern orthodontic treatments tailored to your lifestyle.
+                        </p>
+                        <ul class="service-features">
+                            <li>Clear Aligners</li>
+                            <li>Traditional Braces</li>
+                            <li>Retainers</li>
+                            <li>Early Intervention</li>
+                        </ul>
+                        <div class="service-price">
+                            <span class="price-label">Starting from</span>
+                            <span class="price-amount">R 12,000</span>
+                        </div>
+                        <a href="#appointment" class="btn-service">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="service-card fade-in-up delay-1">
+                    <div class="service-image">
+                        
+                        <img src="Root Canal Therapy.jpg" alt="Root canal treatment">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Root Canal Therapy</h3>
+                        <p class="service-description">
+                            Advanced endodontic treatment to save your natural teeth and eliminate pain effectively.
+                        </p>
+                        <ul class="service-features">
+                            <li>Pain Relief</li>
+                            <li>Tooth Preservation</li>
+                            <li>Modern Techniques</li>
+                            <li>Post-Treatment Care</li>
+                        </ul>
+                        <div class="service-price">
+                            <span class="price-label">Starting from</span>
+                            <span class="price-amount">R 3,200</span>
+                        </div>
+                        <a href="#appointment" class="btn-service">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="service-card fade-in-up delay-2">
+                    <div class="service-image">
+                        
+                        <img src="Emergency Care.avif" alt="Emergency dental care">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Emergency Care</h3>
+                        <p class="service-description">
+                            Prompt, compassionate care when you need it most. We're here for your dental emergencies.
+                        </p>
+                        <ul class="service-features">
+                            <li>Same-Day Appointments</li>
+                            <li>Pain Management</li>
+                            <li>Urgent Treatment</li>
+                            <li>24/7 Assistance</li>
+                        </ul>
+                        <div class="service-price">
+                            <span class="price-label">Starting from</span>
+                            <span class="price-amount">R 1,200</span>
+                        </div>
+                        <a href="#appointment" class="btn-service">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Meet Our Team</span>
+                <h2 class="section-title">Expert Dental Professionals</h2>
+                <p class="section-description">Our highly qualified team is dedicated to providing you with exceptional care and creating beautiful, healthy smiles.</p>
+            </div>
+
+            
+            <div class="team-grid">
+                <div class="team-member fade-in-up">
+                    <div class="team-image">
+                        
+                        <img src="Dr. Sarah Mitchell.jpg" alt="Dr. Sarah Mitchell">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Dr. Sarah Mitchell</h3>
+                        <p class="team-title">Principal Dentist & Founder</p>
+                        <p class="team-description">
+                            With over 15 years of experience in cosmetic and restorative dentistry, Dr. Mitchell is passionate about creating confident smiles.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="team-member fade-in-up delay-1">
+                    <div class="team-image">
+                        
+                        <img src="Dr. James Peterson.webp" alt="Dr. James Peterson">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Dr. James Peterson</h3>
+                        <p class="team-title">Orthodontic Specialist</p>
+                        <p class="team-description">
+                            Specializing in modern orthodontics, Dr. Peterson helps patients achieve perfectly aligned smiles with cutting-edge techniques.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="team-member fade-in-up delay-2">
+                    <div class="team-image">
+                        
+                        <img src="Dr. Emily Chen.jpg" alt="Dr. Emily Chen">
+                        <div class="team-overlay">
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-name">Dr. Emily Chen</h3>
+                        <p class="team-title">Endodontic Specialist</p>
+                        <p class="team-description">
+                            Dr. Chen's expertise in root canal therapy and endodontics ensures pain-free treatment and successful outcomes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Testimonials</span>
+                <h2 class="section-title">What Our Patients Say</h2>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-track" id="testimonialTrack">
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <p class="testimonial-text">
+                            "I've been going to Serene Dental for years and wouldn't trust anyone else with my smile. The team is professional, caring, and always makes me feel comfortable. Dr. Mitchell transformed my smile with veneers - I couldn't be happier!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4 class="author-name">Thandiwe Mabaso</h4>
+                                <p class="author-title">Business Owner</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <p class="testimonial-text">
+                            "After years of dental anxiety, I finally found a practice that understands my concerns. The entire team at Serene Dental is patient, gentle, and explains everything clearly. My teeth have never looked or felt better!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4 class="author-name">Michael van der Merwe</h4>
+                                <p class="author-title">Software Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <p class="testimonial-text">
+                            "Dr. Peterson's orthodontic work is exceptional. My daughter's treatment was smooth, efficient, and the results are amazing. The clinic's modern approach and friendly atmosphere made every visit pleasant."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4 class="author-name">Nadia Patel</h4>
+                                <p class="author-title">Marketing Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn prev" id="prevTestimonial" aria-label="Previous testimonial">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M15 18l-6-6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="testimonial-dots" id="testimonialDots"></div>
+                    <button class="testimonial-btn next" id="nextTestimonial" aria-label="Next testimonial">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 18l6-6-6-6"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="appointment" class="appointment">
+        <div class="container">
+            <div class="appointment-wrapper">
+                <div class="appointment-info fade-in-up">
+                    <span class="section-label light">Book Appointment</span>
+                    <h2 class="section-title light">Schedule Your Visit</h2>
+                    <p class="appointment-description">
+                        Ready to transform your smile? Book your appointment today and take the first step towards optimal oral health.
+                    </p>
+                    <div class="appointment-features">
+                        <div class="feature-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <span>Flexible Scheduling</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <span>Same-Day Appointments Available</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <span>Confirmation Within 24 Hours</span>
+                        </div>
+                    </div>
+                    <div class="appointment-contact">
+                        <div class="contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <span>+27 11 123 4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <span>info@serenedental.co.za</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="appointment-form-container fade-in-up delay-1">
+                    <form id="appointmentForm" class="appointment-form" novalidate>
+                        <!-- Honeypot field for spam prevention -->
+                        <input type="text" id="website" name="website" style="display:none;" tabindex="-1" autocomplete="off" aria-hidden="true">
+                        
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required minlength="2" maxlength="100">
+                            <span class="error-message" id="nameError" role="alert"></span>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="emailError" role="alert"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required pattern="[\d\s\-\+\(\)]{10,}">
+                                <span class="error-message" id="phoneError" role="alert"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Select Service *</label>
+                            <select id="service" name="service" required aria-label="Dental service selection">
+                                <option value="">Choose a service...</option>
+                                <option value="general">General Dentistry</option>
+                                <option value="cosmetic">Cosmetic Dentistry</option>
+                                <option value="implants">Dental Implants</option>
+                                <option value="orthodontics">Orthodontics</option>
+                                <option value="rootcanal">Root Canal Therapy</option>
+                                <option value="emergency">Emergency Care</option>
+                            </select>
+                            <span class="error-message" id="serviceError" role="alert"></span>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Preferred Date *</label>
+                                <input type="date" id="date" name="date" required>
+                                <span class="error-message" id="dateError" role="alert"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="time">Preferred Time *</label>
+                                <select id="time" name="time" required aria-label="Appointment time selection">
+                                    <option value="">Select time...</option>
+                                    <option value="08:00">08:00 AM</option>
+                                    <option value="09:00">09:00 AM</option>
+                                    <option value="10:00">10:00 AM</option>
+                                    <option value="11:00">11:00 AM</option>
+                                    <option value="12:00">12:00 PM</option>
+                                    <option value="14:00">02:00 PM</option>
+                                    <option value="15:00">03:00 PM</option>
+                                    <option value="16:00">04:00 PM</option>
+                                    <option value="17:00">05:00 PM</option>
+                                </select>
+                                <span class="error-message" id="timeError" role="alert"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Additional Notes (Optional)</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Please share any specific concerns or requirements..." maxlength="500"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit" aria-label="Submit appointment booking form">
+                            <span class="btn-text">Book Appointment</span>
+                            <span class="btn-loading">
+                                <svg class="spinner" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="31.4 31.4" transform="rotate(-90 12 12)">
+                                        <animateTransform attributeName="transform" type="rotate" from="0 12 12" to="360 12 12" dur="1s" repeatCount="indefinite"/>
+                                    </circle>
+                                </svg>
+                                Processing...
+                            </span>
+                        </button>
+                    </form>
+
+                    <!-- Success Message (hidden by default) -->
+                    <div id="successMessage" class="success-message" role="alert" aria-live="polite">
+                        <div class="success-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Appointment Request Received!</h3>
+                        <p>Thank you for booking with Serene Dental. We'll confirm your appointment within 24 hours via email or phone.</p>
+                        <button class="btn-close-success" id="closeSuccess" aria-label="Close success message">Book Another Appointment</button>
+                    </div>
+
+                    <!-- Error Toast (hidden by default) -->
+                    <div id="errorToast" class="error-toast" role="alert" aria-live="assertive" aria-hidden="true">
+                        <span id="errorToastMessage"></span>
+                        <button class="toast-close" onclick="document.getElementById('errorToast').setAttribute('aria-hidden', 'true')" aria-label="Close error message">×</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info fade-in-up">
+                    <span class="section-label">Contact Us</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="contact-description">
+                        Have questions or need assistance? We're here to help. Reach out to us through any of the following channels.
+                    </p>
+
+                    <div class="contact-details">
+                        <div class="contact-detail-item">
+                            <div class="detail-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div class="detail-content">
+                                <h4>Visit Us</h4>
+                                <p>123 Dental Avenue, Sandton<br>Johannesburg, 2196<br>South Africa</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-item">
+                            <div class="detail-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </div>
+                            <div class="detail-content">
+                                <h4>Call Us</h4>
+                                <p>Phone: +27 11 123 4567<br>Emergency: +27 82 987 6543</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-item">
+                            <div class="detail-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                            </div>
+                            <div class="detail-content">
+                                <h4>Opening Hours</h4>
+                                <p>Mon - Fri: 8:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 2:00 PM<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-map fade-in-up delay-1">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57323.49843417243!2d28.00141947892589!3d-26.108101289410875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95732d2dbc8d67%3A0x232d00eb706f6fdc!2sSandton%20Dental%20Clinic%20-%20Dr&#39;s%20Peer!5e0!3m2!1sen!2sza!4v1770034549623!5m2!1sen!2sza" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3 class="footer-logo">Serene Dental</h3>
+                    <p class="footer-description">
+                        Your trusted partner in achieving and maintaining optimal oral health through personalized, premium dental care.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#appointment">Book Appointment</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">General Dentistry</a></li>
+                        <li><a href="#services">Cosmetic Dentistry</a></li>
+                        <li><a href="#services">Dental Implants</a></li>
+                        <li><a href="#services">Orthodontics</a></li>
+                        <li><a href="#services">Emergency Care</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li>123 Dental Avenue, Sandton</li>
+                        <li>Johannesburg, 2196</li>
+                        <li>Phone: +27 11 123 4567</li>
+                        <li>Email: info@serenedental.co.za</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Serene Dental. All rights reserved.</p>
+                <p class="footer-credit">Designed by <strong>Shumani Monyai</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <script src="main.js"></script>
+</body>
+</html>
